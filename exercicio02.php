@@ -71,18 +71,19 @@
     <div class="container">
     <h1> Exercício 02 </h1>
 
+    <!-- uso to Step, que pula de 10 em 10 no input, pode ser qualquer valor no step -->
  <form action="" method="post">
     <label for="num01">Digite o primeiro número: </label>
-    <input type="number" name="num01" required> <br><br>
+    <input type="number" step="10" name="num01" required> <br><br> 
 
     <label for="num02">Digite o segundo número: </label>
-    <input type="number" name="num02" required> <br><br>
+    <input type="number" step="10" name="num02" required> <br><br>
 
     <label for="num03">Digite o terceiro número: </label>
-    <input type="number" name="num03" required> <br><br>
+    <input type="number" step="10" name="num03" required> <br><br>
 
     <label for="num04">Digite o quarto número: </label>
-    <input type="number" name="num04" required> <br><br>
+    <input type="number" step="10" name="num04" required> <br><br>
 
     <input type="submit" value="Resultado">
 

@@ -92,6 +92,8 @@
         $raio = $_POST["raio"]; // pegar informação do formulário
         $altura = $_POST["altura"]; // pegar informação do formulário
         $volume = 3.14 * ($raio*$raio) * $altura;
+        // $volume = 3.14 * pow($raio,2) * $altura --> forma mais correta de fazer;
+
 
         echo "<h3> O menor número : $volume </h3>";
         
